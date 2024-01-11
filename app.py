@@ -23,10 +23,10 @@ def index():
         try:
             #  reading the inputs given by the user
             pclass =int(request.form['pclass'])
-            volatile_acidity =float(request.form['volatile_acidity'])
-            citric_acid =float(request.form['citric_acid'])
-            residual_sugar =float(request.form['residual_sugar'])
-            chlorides =float(request.form['chlorides'])
+            nom =str(request.form['nom'])
+            sexe =str(request.form['sexe'])
+            age =int(request.form['age'])
+            cabin_num =int(request.form['cabin_num'])
             free_sulfur_dioxide =float(request.form['free_sulfur_dioxide'])
             total_sulfur_dioxide =float(request.form['total_sulfur_dioxide'])
             density =float(request.form['density'])
