@@ -1,9 +1,9 @@
 COLUMNS:
   pclass : int64
-  volatile acidity : float64
-  citric acid : float64
-  residual sugar : float64
-  clorides : float64
+  nom : str
+  sexe : str
+  age : int64
+  cabin_num : int64
   free sulfur dioxide : float64
   total sulfur dioxide : float64
   density : float64
