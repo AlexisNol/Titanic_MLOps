@@ -6,7 +6,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]:%(message)s:')
 
-projet_name="Titanic_MLOps"
+projet_name="mlProject"
 
 list_of_files =[
     ".github/workflows/.gitkeep",
