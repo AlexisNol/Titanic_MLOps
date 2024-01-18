@@ -8,10 +8,10 @@ with open('README.md','r',encoding="utf-8") as f:
 
 __version__= "0.0.0"
 
-REPO_NAME='e2e-mlops'
-AUTHOR_USER_NAME="Aghilas.Sini"
+REPO_NAME='Titanic_MLOps'
+AUTHOR_USER_NAME="Julien.Mahouin Mohamed.Lemrabott Ouassim.Messagier Alexis.Nolière"
 SRC_REPO = "mlProject"
-AUTHOR_EMAIL="aghilas.sini@univ-lemans.fr"
+AUTHOR_EMAIL="Julien.Mahouin.Etu@univ-lemans.fr Mohamed.Lemrabott.Etu@univ-lemans.fr Ouassim.Messagier.Etu@univ-lemans.fr Alexis.Nolière.Etu@univ-lemans.fr"
 
 setuptools.setup(
     name=SRC_REPO,
