@@ -19,7 +19,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="/">Home</a>
+                <a class="navbar-brand" href="/">Accueil</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -40,8 +40,8 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="site-heading">
-                            <h1>Wine Quality Prediction</h1>
-                            <span class="subheading">A Wine Quality Checking Web App</span>
+                            <h1>Titanic Survival</h1>
+                            <span class="subheading">Une application Web de prédiction de survie des passagers du Titanic</span>
                         </div>
                     </div>
                 </div>
@@ -66,9 +66,9 @@
 </head>
 <body class="form-v9">
 	<div class="page-content">
-		<div class="form-v9-content" style="background-image: url('static/assets/img/form-v9.jpg')">
+		<div class="form-v9-content" style="background-image: url('static/assets/img/titanic_background.jpg')">
 			<form class="form-detail" action="/predict" method="post">
-				<h2>Please Fill The Information</h2>
+				<h2>Merci de remplir le formulaire</h2>
 				<div class="form-row-total">
 
 					<div class="form-row">
@@ -108,8 +108,8 @@
 					</div>
 
                     <div class="form-row">
-                        <label for="free_sulfur_dioxide"> Free Sulfur Dioxide:</label>
-						<input type="text" name="free_sulfur_dioxide" id="free_sulfur_dioxide" class="input-text" placeholder="free_sulfur_dioxide" required>
+                        <label for="free_sulfur_dioxide"> Nombre de frères et sœurs/conjoints à bord:</label>
+						<input type="text" name="sibsp" id="sibsp" class="input-text" placeholder="sibsp" required>
 					</div>
 
 				</div>
@@ -118,46 +118,13 @@
                 <div class="form-row-total">
 
                     <div class="form-row">
-                        <label for="total_sulfur_dioxide"> Total Sulfur Dioxide:</label>
-						<input type="text" name="total_sulfur_dioxide" id="total_sulfur_dioxide" class="input-text" placeholder="total_sulfur_dioxide" required>
+                        <label for="total_sulfur_dioxide"> Nombre de parents/enfants à bord:</label>
+						<input type="text" name="parch" id="parch" class="input-text" placeholder="parch" required>
 					</div>
-
-                    <div class="form-row">
-                        <label for="density"> Density:</label>
-						<input type="text" name="density" id="density" class="input-text" placeholder="density" required>
-					</div>
-
 				</div>
-
-
-                <div class="form-row-total">
-
-                    <div class="form-row">
-                        <label for="pH"> pH:</label>
-						<input type="text" name="pH" id="pH" class="input-text" placeholder="pH" required>
-					</div>
-
-                    <div class="form-row">
-                        <label for="sulphates"> Sulphates:</label>
-						<input type="text" name="sulphates" id="sulphates" class="input-text" placeholder="sulphates" required>
-					</div>
-
-				</div>
-
-
-                <div class="form-row-total">
-
-                    <div class="form-row">
-                        <label for="alcohol"> Alcohol:</label>
-						<input type="text" name="alcohol" id="alcohol" class="input-text" placeholder="alcohol" required>
-					</div>
-
-
-				</div>
-
 
 				<div class="form-row-last">
-					<input type="submit" name="register" class="register" value="Predict">
+					<input type="submit" name="register" class="register" value="Prédire">
 				</div>
 			</form>
 		</div>
