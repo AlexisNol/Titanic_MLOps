@@ -21,10 +21,10 @@ setuptools.setup(
     description='a small  python package for  mlops ',
     long_description=long_description,
     long_destription_content='text/markdown',
-    url="https://git.univ-lemans.fr/Aghilas.Sini/e2e-mlops",
+    url="https://github.com/AlexisNol/Titanic_MLOps",
     project_urls={
 
-        "Bug Tracker":"https://git.univ-lemans.fr/Aghilas.Sini/e2e-mlops/-/issues",
+        "Bug Tracker":"https://github.com/AlexisNol/Titanic_MLOps/-/issues",
 
     },
     package_dir={"":"src"},
