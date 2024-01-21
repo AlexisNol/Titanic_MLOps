@@ -1,0 +1,11 @@
+# Génération de l'image d'un docker
+docker buildx build -t image_titanic .
+
+# Lancer le docker associé à l'image "image_titanic" en localhost 8080 sur le port 3000
+docker run -p 8080:3000 image_titanic
+
+# Export de l'image du docker sous forme d'une archive
+docker save -o nom_archive.tar.gz image_titanic 
+
+# Export du docker sous forme d'une archive - "afb8833a79e9" étant le nom du docker
+docker export -o docker.tar.gz afb8833a79e9
