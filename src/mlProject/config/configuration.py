@@ -86,7 +86,7 @@ class ConfigurationManager:
             all_params= params,
             metric_file_name= config.metric_file_name,
             target_column= schema.name,
-            mlflow_uri="https://dagshub.com/AghilasSini/e2e-mlops.mlflow"
+            mlflow_uri="https://dagshub.com/mohamed.abdhhh/titanic.mlflow"
         
         )
         return model_evaluation_config
