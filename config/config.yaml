@@ -2,19 +2,19 @@ artifacts_roots: artifacts
 
 data_ingestion:
   root_dir : artifacts/data_ingestion
-  source_URL: https://github.com/entbappy/Branching-tutorial/raw/master/winequality-data.zip
+  source_URL: https://github.com/AlexisNol/Titanic_MLOps/blob/main/data.zip
   local_data_file : artifacts/data_ingestion/data.zip
   unzip_dir : artifacts/data_ingestion 
 
 data_validation:
   root_dir : artifacts/data_validation
-  unzip_data_dir : artifacts/data_ingestion/winequality-red.csv
+  unzip_data_dir : artifacts/data_ingestion/titanic.csv
   STATUS_FILE : artifacts/data_validation/status.txt
 
 
 data_transformation:
   root_dir : artifacts/data_transformation
-  unzip_data_dir : artifacts/data_ingestion/winequality-red.csv
+  unzip_data_dir : artifacts/data_ingestion/titanic.csv
 
 
 
