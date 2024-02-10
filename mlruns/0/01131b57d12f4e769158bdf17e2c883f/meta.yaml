@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/m.lemrabott/Desktop/M2/Cloud-computing/Titanic_MLOps/Titanic_MLOps-main/mlruns/0/01131b57d12f4e769158bdf17e2c883f/artifacts
+end_time: 1707447050771
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 01131b57d12f4e769158bdf17e2c883f
+run_name: loud-snake-342
+run_uuid: 01131b57d12f4e769158bdf17e2c883f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707447047901
+status: 3
+tags: []
+user_id: m.lemrabott
