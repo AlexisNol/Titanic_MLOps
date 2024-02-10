@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/m.lemrabott/Desktop/M2/Cloud-computing/Titanic_MLOps/Titanic_MLOps-main/mlruns/0/bd502b716fdb4296955ca32de8f239f0/artifacts
+end_time: 1707445928832
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bd502b716fdb4296955ca32de8f239f0
+run_name: unique-snake-370
+run_uuid: bd502b716fdb4296955ca32de8f239f0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707445925638
+status: 4
+tags: []
+user_id: m.lemrabott

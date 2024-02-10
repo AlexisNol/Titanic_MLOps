@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/m.lemrabott/Desktop/M2/Cloud-computing/Titanic_MLOps/Titanic_MLOps-main/mlruns/0/bf0372feffd8442b9977ead5e4384de1/artifacts
+end_time: 1707449141911
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bf0372feffd8442b9977ead5e4384de1
+run_name: rare-eel-576
+run_uuid: bf0372feffd8442b9977ead5e4384de1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707449137175
+status: 3
+tags: []
+user_id: m.lemrabott
