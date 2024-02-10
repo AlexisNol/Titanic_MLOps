@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/m.lemrabott/Desktop/M2/Cloud-computing/Titanic_MLOps/Titanic_MLOps-main/mlruns/0/5609374405804c43aae4a7d48318cc01/artifacts
+end_time: 1707445431240
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5609374405804c43aae4a7d48318cc01
+run_name: welcoming-cub-339
+run_uuid: 5609374405804c43aae4a7d48318cc01
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707445428285
+status: 4
+tags: []
+user_id: m.lemrabott

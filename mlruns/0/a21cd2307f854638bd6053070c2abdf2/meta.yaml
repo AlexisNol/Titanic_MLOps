@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/m.lemrabott/Desktop/M2/Cloud-computing/Titanic_MLOps/Titanic_MLOps-main/mlruns/0/a21cd2307f854638bd6053070c2abdf2/artifacts
+end_time: 1707445683757
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a21cd2307f854638bd6053070c2abdf2
+run_name: masked-grub-636
+run_uuid: a21cd2307f854638bd6053070c2abdf2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707445679266
+status: 4
+tags: []
+user_id: m.lemrabott

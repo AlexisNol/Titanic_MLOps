@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/m.lemrabott/Desktop/M2/Cloud-computing/Titanic_MLOps/Titanic_MLOps-main/mlruns/0/787291e1315946cd99e132caeecc08ba/artifacts
+end_time: 1707443393772
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 787291e1315946cd99e132caeecc08ba
+run_name: stylish-goat-802
+run_uuid: 787291e1315946cd99e132caeecc08ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707443392377
+status: 4
+tags: []
+user_id: m.lemrabott
