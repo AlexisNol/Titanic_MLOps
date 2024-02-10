@@ -6,7 +6,8 @@ COLUMNS:
   cabin_num : int64
   sibsp : int64
   parch : int64
+  Survived : int64
 
 
 TARGET_COLUMN:
-  name: quality
+  name: Survived

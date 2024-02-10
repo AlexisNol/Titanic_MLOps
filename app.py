@@ -2,7 +2,14 @@ from flask import Flask, render_template,request
 import os
 import numpy as np
 import pandas as pd
-from mlProject.pipeline.prediction import PredictPipeline
+import sys
+sys.path.append('c:/users/m.lemrabott/desktop/m2/cloud-computing/titanic_mlops/titanic_mlops-main/src')
+from src.mlProject.pipeline.prediction import PredictPipelineV2
+#from mlProject.pipeline.prediction import PredictPipelineV2 
+#import sys
+#sys.path.append('src/mlProject/pipeline/prediction.py')
+#import PredictTitanic
+#from mlProject.pipeline.prediction import PreditTitanic
 
 
 
@@ -17,6 +24,7 @@ def homepage():
 def trainpage():
     os.system("python main.py")
     return "Successfully trained"
+
 @app.route('/predict',methods=['POST','GET'])
 def index():
     if request.method == 'POST':
@@ -27,20 +35,19 @@ def index():
             sexe =str(request.form['sexe'])
             age =int(request.form['age'])
             cabin_num =int(request.form['cabin_num'])
-            free_sulfur_dioxide =float(request.form['free_sulfur_dioxide'])
-            total_sulfur_dioxide =float(request.form['total_sulfur_dioxide'])
-            density =float(request.form['density'])
-            pH =float(request.form['pH'])
-            sulphates =float(request.form['sulphates'])
-            alcohol =float(request.form['alcohol'])
+            sibsp =int(request.form['sibsp'])
+            parch =int(request.form['parch'])
        
          
-            data = [pclass,volatile_acidity,citric_acid,residual_sugar,chlorides,free_sulfur_dioxide,total_sulfur_dioxide,density,pH,sulphates,alcohol]
-            data = np.array(data).reshape(1, 11)
+            data = [pclass,sexe,sibsp,parch]
+            #data2 = [pclass,sexe,sibsp,parch]
+            data2 = np.array(data).reshape(1, 4)
+            #data2 = np.array([1,2,3,4]).reshape(1, 4)
             
-            predict = PredictPipeline()
-            predict = predict.predict(data)
+            predict = PredictPipelineV2()
+            predict = predict.predict(data2)
 
+            #return render_template('results.html')
             return render_template('results.html', prediction = str(predict))
 
         except Exception as e:
@@ -52,4 +59,5 @@ def index():
 
 if __name__=="__main__":
     # app.run(host="0.0.0.0",port= 8080, debug=True)
+    #os.system("python main.py")
     app.run(host="0.0.0.0",port= 8080)
