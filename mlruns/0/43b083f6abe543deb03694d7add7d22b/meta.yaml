@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/m.lemrabott/Desktop/M2/Cloud-computing/Titanic_MLOps/Titanic_MLOps-main/mlruns/0/43b083f6abe543deb03694d7add7d22b/artifacts
+end_time: 1707451180305
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 43b083f6abe543deb03694d7add7d22b
+run_name: serious-turtle-757
+run_uuid: 43b083f6abe543deb03694d7add7d22b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707451175725
+status: 4
+tags: []
+user_id: m.lemrabott

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/m.lemrabott/Desktop/M2/Cloud-computing/Titanic_MLOps/Titanic_MLOps-main/mlruns/0/4f9a2ba80f3342778b7d91d7faa38d83/artifacts
+end_time: 1707450291610
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4f9a2ba80f3342778b7d91d7faa38d83
+run_name: skittish-bass-164
+run_uuid: 4f9a2ba80f3342778b7d91d7faa38d83
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707450286864
+status: 3
+tags: []
+user_id: m.lemrabott
