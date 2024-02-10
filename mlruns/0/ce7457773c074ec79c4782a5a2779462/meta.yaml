@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/m.lemrabott/Desktop/M2/Cloud-computing/Titanic_MLOps/Titanic_MLOps-main/mlruns/0/ce7457773c074ec79c4782a5a2779462/artifacts
+end_time: 1707446370359
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ce7457773c074ec79c4782a5a2779462
+run_name: puzzled-steed-616
+run_uuid: ce7457773c074ec79c4782a5a2779462
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707446367437
+status: 4
+tags: []
+user_id: m.lemrabott

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/m.lemrabott/Desktop/M2/Cloud-computing/Titanic_MLOps/Titanic_MLOps-main/mlruns/0/f5d1213c287442ef84e17ae4e822ba69/artifacts
+end_time: 1707450548439
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f5d1213c287442ef84e17ae4e822ba69
+run_name: marvelous-zebra-622
+run_uuid: f5d1213c287442ef84e17ae4e822ba69
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707450543831
+status: 3
+tags: []
+user_id: m.lemrabott

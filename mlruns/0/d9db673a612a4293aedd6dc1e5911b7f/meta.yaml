@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/m.lemrabott/Desktop/M2/Cloud-computing/Titanic_MLOps/Titanic_MLOps-main/mlruns/0/d9db673a612a4293aedd6dc1e5911b7f/artifacts
+end_time: 1707445170231
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d9db673a612a4293aedd6dc1e5911b7f
+run_name: enchanting-shark-723
+run_uuid: d9db673a612a4293aedd6dc1e5911b7f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707445168804
+status: 4
+tags: []
+user_id: m.lemrabott
